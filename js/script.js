@@ -40,3 +40,8 @@ for (var i = 0; i < 3; i++) {
   nuovoStudente.eta = prompt('Inserire eta nuovo studente');
   studenti.push(nuovoStudente);
 }
+
+for (var i = 0; i < studenti.length; i++) {
+  var studente = studenti[i];
+  console.log(studente.nome + " " + studente.cognome);
+}
