@@ -36,7 +36,7 @@ for (var key in studenti)  {
 for (var i = 0; i < 3; i++) {
   var nuovoStudente = {};
   nuovoStudente.nome = prompt('Inserire nome nuovo studente');
-  nuovoStudente.cognnome = prompt('Inserire cognome nuovo studente');
+  nuovoStudente.cognome = prompt('Inserire cognome nuovo studente');
   nuovoStudente.eta = prompt('Inserire eta nuovo studente');
   studenti.push(nuovoStudente);
 }
